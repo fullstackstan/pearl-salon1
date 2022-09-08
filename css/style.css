@@ -19,6 +19,18 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
+a {
+    color: var(--body);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: var(--brand);
+}
+.link-more {
+    
+}
 
 img {
     width: 100%;
@@ -85,4 +97,33 @@ section {
 
  .btn-outline-brand:hover {
     background-color: var(--brand);
+ }
+
+ /* About */
+
+ #about {
+    position: relative;
+ }
+
+ #about::after{
+    content: '';
+    width: 25%;
+    height: 100%;
+    background-color: var(--brand) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+ }
+ #about h6 {
+    color: var(--brand);
+ }
+
+ #about h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+ }
+
+ #about .signature {
+    width: unset;
  }
