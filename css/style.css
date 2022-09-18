@@ -189,3 +189,6 @@ section {
     display: flex;
     align-items: center;
  }
+ #milestone h1 {
+    color: var(--brand);
+ }
